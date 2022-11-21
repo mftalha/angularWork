@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css"; /* projeye eklediğimiz kütüphaneyi css içinde çağırma == bu işlemi angular.json içindeki styles[] alanındada yapabiliriz. == farklı yazımla*/ 
+p{
+    color:blue;
+}

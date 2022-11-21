@@ -2,12 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Todoapp</title>
+  <title>Todo Application</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- CSS only :: index.html sayfasında tanımladığım kütüphanleri compenentler içindenden kullanabiliyorum çünkü buraya yazılıyorlar sonuçta en son.  -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
 </head>
-<body>
-  <app-root></app-root>
+<body class="bg-success">
+  <!-- <app-root></app-root> -->
+  <!-- <div class="app-root"></div> -->
+  <!-- <div id="app-root"></div> -->
+  <p> app dışı compenent paragraf </p> <!-- compenent css'inde verdiğim düzenleme compenent dışındakş bu p de etki göstermiyor.-->
+  <app></app>
 </body>
 </html>
