@@ -1,0 +1,10 @@
+<h1 class="bg-warning">App Compenent</h1>
+<h2>{{title}}</h2>  <!-- app.component.ts içindeki class dan tanımladıgım değere erişiyorum-->
+<h2>{{getTitle() }}</h2> <!-- app.component.ts içindeki class dan tanımladıgım methoda erişiyorum-->
+<p> <!-- tanımlanan nesneye erişim -->
+    {{ todoItem.description }}
+    {{ todoItem.action}}
+</p>
+
+<todo></todo>  <!-- aynı component'i birden fazlakez ekleyebiriz. -->
+<todo></todo>
